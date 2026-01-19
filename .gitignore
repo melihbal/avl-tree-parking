@@ -36,4 +36,11 @@ output.txt
 
 # Ignore IDE specific files (IntelliJ/Eclipse)
 .idea/
-*.iml
+*.iml*.class
+output.txt
+.idea/
+.DS_Store
+*.class
+output.txt
+.idea/
+.DS_Store

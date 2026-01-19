@@ -55,7 +55,7 @@ java Main [filepath]
     ```
 
 * **Run on default file:**
-  *(If no argument is provided, it defaults to `inputs/type1-large.txt`)*
+  *(If no argument is provided, it defaults to `inputs/type5.txt`)*
     ```bash
     java Main
     ```

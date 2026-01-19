@@ -86,7 +86,7 @@ load 15 50
 
 ## Output Format
 
-The system generates console output for specific commands to track the flow of logistics:
+The system creates the `output.txt` file and prints the console output for specific commands inside to track the flow of logistics:
 
 1. **Load Operations**
    When a `load` command executes, the system prints the Truck ID and the capacity of the lot it was moved to (or re-added to).

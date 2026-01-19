@@ -83,3 +83,17 @@ ready 15
 load 15 50
 ...
 ```
+
+## Output Format
+
+The system generates console output for specific commands to track the flow of logistics:
+
+1. **Load Operations**
+   When a `load` command executes, the system prints the Truck ID and the capacity of the lot it was moved to (or re-added to).
+   * **Format:** `[TruckID] [ParkingLotCapacity]`
+   * **Example:** `101 15`
+
+2. **Count Operations**
+   When a `count` command executes, the system prints the total number of trucks (both waiting and ready) in all parking lots with a capacity strictly greater than the query.
+   * **Format:** `[TotalCount]`
+   * **Example:** `42`

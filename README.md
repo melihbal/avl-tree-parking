@@ -31,7 +31,7 @@ It implements a custom data structure to solve this:
 
 ### 1. Compile
 ```bash
-javac *.java
+javac src/*.java
 ```
 
 ### 2. Run with Different Input Files
@@ -39,25 +39,25 @@ You can run the simulation on different datasets by specifying the file path as 
 
 **Syntax:**
 ```bash
-java Main [filepath]
+java -cp src Main [filepath]
 ```
 
 **Examples:**
 
 * **Run on a specific large dataset:**
     ```bash
-    java Main inputs/type1-large.txt
+    java -cp src Main inputs/type1-large.txt
     ```
 
 * **Run on a small test set:**
     ```bash
-    java Main inputs/type4-small.txt
+    java -cp src Main inputs/type4-small.txt
     ```
 
 * **Run on default file:**
   *(If no argument is provided, it defaults to `inputs/type5.txt`)*
     ```bash
-    java Main
+    java -cp src Main
     ```
 
 ## Input Commands

@@ -7,8 +7,8 @@ A Java-based simulation that optimizes truck parking logistics using a custom-bu
 This project simulates a complex logistics network where parking lots are dynamically allocated and managed based on specific capacity constraints. The goal is to efficiently route trucks to the optimal parking lot while maintaining balanced access speeds.
 
 It implements a custom data structure to solve this:
-* **AVL Tree (Self-Balancing BST):** Unlike standard lists, this system uses an AVL Tree to index parking lots by capacity. This ensures that finding, adding, or deleting a lot remains efficient (O(\log N)) even as the simulation scales to thousands of lots.
-* **Queue-Based Logistics:** Implements custom FIFO queues to handle the real-time state transitions of trucks (from "Waiting" to "Ready").
+* **AVL Tree (Self-Balancing BST):** Unlike standard lists, this system uses an AVL Tree to index parking lots by capacity. This ensures that finding, adding, or deleting a lot remains efficient (O(log N)) even as the simulation scales to thousands of lots.
+* **Queue-Based Logistics:** Implements custom FIFO queues to handle the real time state changes of trucks (from "Waiting" to "Ready").
 
 ## Key Features
 
@@ -21,7 +21,7 @@ It implements a custom data structure to solve this:
 
 * **Language:** Java
 * **Concepts:** AVL Trees, Binary Search Trees (BST), FIFO Queues, File I/O
-* **Complexity:** O(\log N) for Search/Insert/Delete
+* **Complexity:** O(log N) for Search/Insert/Delete
 
 ## How to Run
 

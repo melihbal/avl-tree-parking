@@ -21,7 +21,7 @@ It implements a custom data structure to solve this:
 
 * **Language:** Java
 * **Concepts:** AVL Trees, Binary Search Trees (BST), FIFO Queues, File I/O
-* **Complexity:** $O(\log N)$ for Search/Insert/Delete
+* **Complexity:** O(\log N) for Search/Insert/Delete
 
 ## How to Run
 
